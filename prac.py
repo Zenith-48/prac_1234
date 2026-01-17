@@ -11,6 +11,6 @@ else:
     while y:
         x,y=y,x%y
         hcf=x
-        lcm=int(a*b)/hcf
+        lcm=(a*b)/hcf
 print("HCF is:",hcf)
 print("LCM is:",lcm)
